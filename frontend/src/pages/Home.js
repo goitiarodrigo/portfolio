@@ -18,7 +18,7 @@ const Home = () => {
         getProjects()
     }, [])
 
-
+    console.log("hola")
     return (
         <>
             <Header />
