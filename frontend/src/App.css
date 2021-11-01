@@ -623,3 +623,49 @@ div.containerAllWorks > div:last-child{
     width: 95vw;
   }
 }
+
+@media (max-width: 500px){
+  .myDescription{
+    width: 50%;
+  }
+
+  #root > div.aboutContainer > div > div.myDescription > div:nth-child(2){
+    display: none;
+  }
+
+  .myPhoto{
+    width: 8rem!important;
+    height: 8rem!important;
+    align-self: center;
+  }
+
+  .myProfileContainer{
+    width: 95%;
+  }
+  
+}
+
+@media (min-width: 400px) and (max-width: 699px){
+  .logoContainer a span:first-child{
+    padding: 0;
+  }
+
+  .photoProject{
+    width: 90%;
+  }
+
+  .links{
+    width: 90%;
+  }
+
+  .myPhoto{
+    height: 10rem;
+    width: 10rem;
+    align-self: center;
+  }
+
+  .titleWorks{
+    padding-left: 1rem;
+    font-size: 3.5rem;
+  }
+}

@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './pages/Home';
-import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom"
+import {BrowserRouter, Route, Switch} from "react-router-dom"
 import About from './pages/About';
 
 const App = () => {
