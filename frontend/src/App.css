@@ -366,7 +366,6 @@ div.containerAllWorks > div:last-child{
 
 .myData{
   width: 80vw;
-  height: 55vh;
   display: flex;
   justify-content: space-evenly;
   align-self: center;
@@ -695,9 +694,14 @@ div.containerAllWorks > div:last-child{
     width: 80%;
 }
 
+.myProfileContainer{
+  height: 67%;
+}
+
   .titleWorks{
     font-size: 3.2rem;
     padding-left: 0.5rem;
+    padding-top: 2rem;
   }
 
   .logoContainer a span:first-child{
