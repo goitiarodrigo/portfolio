@@ -577,7 +577,10 @@ div.containerAllWorks > div:last-child{
     flex-direction: column;
     align-items: center;
     justify-content: left;
-    
+  }
+
+  .myDescription{
+    width: 50%;
   }
 
   .coverPhoto nav{
