@@ -518,6 +518,10 @@ div.containerAllWorks > div:last-child{
     font-size: 3rem;
   }
 
+  .linkToNewPage{
+    font-size: 1.2rem;
+  }
+
   .links{
     height: 20rem;
     width: 30rem;
@@ -583,6 +587,10 @@ div.containerAllWorks > div:last-child{
     width: 50%;
   }
 
+  .linkToNewPage{
+    font-size: 1.2rem;
+  }
+
   .coverPhoto nav{
     align-self: center;
     margin-left: 0;
@@ -612,6 +620,10 @@ div.containerAllWorks > div:last-child{
 
   .descriptionContainer{
     width: 100%;
+  }
+
+  .linkToNewPage{
+    font-size: 1.2rem;
   }
 
   .coverPhoto nav{
@@ -658,7 +670,7 @@ div.containerAllWorks > div:last-child{
   }
 
   .links{
-    width: 90%;
+    width: 100%;
   }
 
   .myPhoto{
@@ -671,4 +683,63 @@ div.containerAllWorks > div:last-child{
     padding-left: 1rem;
     font-size: 3.5rem;
   }
+
+  .linkToNewPage{
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+
+  .coverPhoto nav {
+    width: 80%;
+}
+
+  .titleWorks{
+    font-size: 3.2rem;
+    padding-left: 0.5rem;
+  }
+
+  .logoContainer a span:first-child{
+    padding: 0;
+  }
+
+  .linkToNewPage{
+    font-size: 1.2rem;
+  }
+
+  .myData{
+    flex-direction: column;
+  }
+
+  .myDescription{
+    width: 90%;
+    align-self: center;
+  }
+
+  .profileOnAbout{
+    padding-top: 0;
+  }
+
+  .profilePhoto {
+    height: 45vw;
+    width: 40vw;
+}
+
+.photoProject{
+  width: 90%;
+}
+
+.links{
+  width: 100%;
+}
+
+.aboutContainer h1{
+  font-size: 3.2rem;
+}
+
+.linkPageContainer h1{
+  text-align: center;
+  font-size: 2.5rem;
+}
 }
