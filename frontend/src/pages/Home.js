@@ -12,7 +12,7 @@ const Home = () => {
 
     useEffect(()=> {
         const getProjects = async () => {
-            const response = await axios.get("https://goitia.herokuapp.com/api/projects")
+            const response = await axios.get("https://portfolio-goitia.onrender.com/api/projects")
             setProjects(response.data.response)
         }
         getProjects()
